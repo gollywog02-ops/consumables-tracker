@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { addLocation, getDB } from "@/lib/store";
+import { addLocation, getDB } from "../../src/lib/store";
 export default function LocationsForm() {
   const [name, setName] = useState(""); const [notice, setNotice] = useState<string | null>(null);
   return (<div style={{ padding: 12, border: "1px solid #eee", borderRadius: 12 }}>
