@@ -1,6 +1,5 @@
-
 'use client';
-import { exportJSON, importJSON, getDB } from "@/lib/store";
+import { exportJSON, importJSON, getDB } from "../../src/lib/store";
 import { useState } from "react";
 
 export default function BackupPage() {

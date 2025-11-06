@@ -1,7 +1,6 @@
-
 'use client';
 import { useState } from "react";
-import { addItem, getDB } from "@/lib/store";
+import { addItem, getDB } from "../../src/lib/store";
 
 export default function ItemsForm() {
   const [sku, setSku] = useState("");

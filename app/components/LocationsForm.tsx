@@ -1,7 +1,6 @@
-
 'use client';
 import { useState } from "react";
-import { addLocation, getDB } from "@/lib/store";
+import { addLocation, getDB } from "../../src/lib/store";
 
 export default function LocationsForm() {
   const [name, setName] = useState("");

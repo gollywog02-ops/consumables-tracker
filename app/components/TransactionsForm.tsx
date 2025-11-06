@@ -1,7 +1,6 @@
-
 'use client';
 import { useMemo, useState } from "react";
-import { addTransaction, getDB, balancesByItemLocation } from "@/lib/store";
+import { addTransaction, getDB, balancesByItemLocation } from "../../src/lib/store";
 
 export default function TransactionsForm() {
   const db = getDB();

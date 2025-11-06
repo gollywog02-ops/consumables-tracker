@@ -1,6 +1,5 @@
-
 'use client';
-import { lowStock } from "@/lib/store";
+import { lowStock } from "../../src/lib/store";
 import { useEffect, useState } from "react";
 
 export default function LowStockList() {
